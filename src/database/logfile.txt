@@ -1,0 +1,206 @@
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',101)Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2309'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2309'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',102)Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2309'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'SICT 2107',102)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'SICT 2307',102)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2309'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'SDEV 2302',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2109',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',102)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2303',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='SICT 2307'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2309'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='SDEV 2302'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+DELETE FROM current_semester where  current_semester.id='120170001' and current_semester.cid='CSCI 2109'SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2309',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+insert into current_semester (id,cid,division)
+ values(120170001, 'CSCI 2109',101)select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+select  table_time.*,courses.cname,instructor.name from  table_time,courses,instructor where table_time.insid =instructor.insid and table_time.cid=courses.cid and table_time.cid not in( SELECT current_courses.cid FROM current_courses INNER JOIN registered_courses ON current_courses.cid =registered_courses.cid where registered_courses.id='120170001') and table_time.cid not in( SELECT current_semester.cid FROM current_semester where current_semester.id='120170001') 
+SELECT  courses.cname,current_semester.cid,current_semester.division
+ from current_semester,courses  where  current_semester.id='120170001' and current_semester.cid=courses.cid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+Select * From students Where id='120170001' And password='123456789'
+Select * From students Where id='120170001'
+Select * From students Where id='120170001'
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT table_time.*,courses.cname,instructor.name from table_time,current_semester,courses,instructor
+ where current_semester.id='120170001' and current_semester.cid=table_time.cid and  current_semester.division=table_time.division and current_semester.cid=courses.cid and table_time.insid=instructor.insid
+SELECT registered_courses.*,courses.cname FROM registered_courses,courses where registered_courses.cid=courses.cid and registered_courses.id='120170001'
